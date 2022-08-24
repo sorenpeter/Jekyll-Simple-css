@@ -3,12 +3,14 @@ plugins:
   - jekyll-sitemap
 
 # SEO Stuff
-author: 
+author: YOUR NAME
 description: This is my Jekyll website that is running Simple.css
 lang: en
 locale: en_GB
-url: "https://sorenpeter.github.io/jekyll-simple-css/"
-baseurl: ""
+
+
+url: "https://sorenpeter.github.io"   # about url and baseurl see:
+baseurl: "/jekyll-simple-css"         # https://mademistakes.com/mastering-jekyll/site-url-baseurl/
 
 # RSS feeds
 feed:
