@@ -1,39 +1,30 @@
-<!DOCTYPE html>
-<!-- <html lang="{{ site.lang | default: "en-US" }}"> -->
-<html lang="da">
-  
-<head>
-    <meta charset="UTF-8">
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="assets/images/favicon.png" />
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="icon" href="/assets/images/favicon.png" />
     <title>{{ page.title }}</title>
     <meta name="description" content="{{ page.description }}" />
-    {% feed_meta %}
-</head>
-  
-<body>
-  <header>
-    
-    <h1>
-      <a href="https://openaccess.dk"><img src="assets/images/logo.png" alt="Dansk netværk for Open Access"></a>
-      {{ page.header }}
-    </h1>
-    
-    <p>{{ page.description }}</p> 
-    
-    <nav>
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+    <link rel="stylesheet" href="/assets/css/custom.css">
+  </head>
+  <body>
+
+    <header>
+      <h1>{{ page.header }}</h1>
+      <p>{{ page.description }}</p>
+
       {% include navigation.html %}
-    </nav>      
-    
-  </header>
+    </header>
 
-  <main>
-    {{ content }}
-  </main>
+    <main>
+      {{ content }}
+    </main>
 
-  <footer>
-    <p>&copy; 2022 Dansk netværk for Open Access | Kontakt: <a href="mailto:mail@openaccess.dk">mail@openaccess.dk</a></p>
-  </footer>
-</body>
+    <footer>
+      <p>This site was created by <a href="#">YOUR NAME</a> and was made using <a href="https://jekyllrb.com">Jekyll</a> and <a href="https://simplecss.org">Simple.css</a>.</p>
+    </footer>
+
+  </body>
 </html>
