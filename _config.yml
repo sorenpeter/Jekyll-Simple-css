@@ -8,9 +8,10 @@ description: This is my Jekyll website that is running Simple.css
 lang: en
 locale: en_GB
 
+# To lean about url and baseurl see: https://mademistakes.com/mastering-jekyll/site-url-baseurl/
+url: "https://sorenpeter.github.io"   
+baseurl: "/jekyll-simple-css"         
 
-url: "https://sorenpeter.github.io"   # about url and baseurl see:
-baseurl: "/jekyll-simple-css"         # https://mademistakes.com/mastering-jekyll/site-url-baseurl/
 
 # RSS feeds
 feed:
