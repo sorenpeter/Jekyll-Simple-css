@@ -1,0 +1,16 @@
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# SEO Stuff
+title: Dansk netværk for Open Access
+author: <your name>
+description: Dansk netværk for Open Access
+lang: da
+locale: da_DK
+url: "https://openaccess.dk"
+baseurl: ""
+
+# RSS feeds
+feed:
+  posts_limit: 20
