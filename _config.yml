@@ -3,12 +3,11 @@ plugins:
   - jekyll-sitemap
 
 # SEO Stuff
-title: Dansk netværk for Open Access
-author: <your name>
-description: Dansk netværk for Open Access
-lang: da
-locale: da_DK
-url: "https://openaccess.dk"
+author: 
+description: This is my Jekyll website that is running Simple.css
+lang: en
+locale: en_GB
+url: ""
 baseurl: ""
 
 # RSS feeds
