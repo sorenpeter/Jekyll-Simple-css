@@ -7,7 +7,7 @@ author:
 description: This is my Jekyll website that is running Simple.css
 lang: en
 locale: en_GB
-url: ""
+url: "https://sorenpeter.github.io/jekyll-simple-css/"
 baseurl: ""
 
 # RSS feeds
