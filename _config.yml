@@ -9,8 +9,8 @@ lang: en
 locale: en_GB
 
 # To lean about url and baseurl see: https://mademistakes.com/mastering-jekyll/site-url-baseurl/
-url: "https://sorenpeter.github.io/jekyll-simple-css"
-baseurl: ""
+url: "https://sorenpeter.github.io"
+baseurl: "/jekyll-simple-css"
 
 
 # RSS feeds
