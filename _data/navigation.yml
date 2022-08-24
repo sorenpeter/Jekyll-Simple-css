@@ -1,14 +1,11 @@
-- name: Forside
+- name: Home
   link: /
 
-- name: Open Access Week 2022 (program)
-  link: /oaw2022
+- name: Blog
+  link: /blog
 
 - name: About
   link: /about
 
 - name: Contact
   link: /contact
-
-- name: English
-  link: /english
